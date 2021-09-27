@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
   # Box Settings
-  config.vm.box = "generic/debian9"
+  config.vm.box = "marianoRafael/nativescript"
 
   # Provide Settings
   config.vm.provider "virtualbox" do |vb|
